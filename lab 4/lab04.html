@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>My Favorite Recipe</title>
+    <style>
+        body {
+            background-color: #e0f2f1; /* Light greenish-blue background */
+            background-size: cover; /* Cover the entire page */
+            margin: 0; /* Remove default margin */
+            padding: 0; /* Remove default padding */
+        }
+
+        .container {
+            width: 80%; /* Set width to 80% of the viewport */
+            margin: 0 auto; /* Center the container */
+            overflow: auto; /* Clear the float */
+        }
+
+        header, .left-column, .right-column, footer {
+            background-color: #fff; /* White background for content areas */
+            margin-bottom: 20px; /* Space between content areas */
+        }
+
+        header, footer {
+            padding: 20px;
+        }
+
+        .left-column, .right-column {
+            float: left; /* Float the columns to get them side by side */
+            width: 48%; /* Slightly less than half the container width to fit side by side */
+            padding: 10px;
+            box-sizing: border-box; /* Include padding and border in the element's width */
+        }
+
+        .right-column {
+            margin-left: 4%; /* Space between the columns */
+        }
+
+        h1, h2, p, ul, ol, li, a, img {
+            /* Reset styles or customize as needed */
+        }
+
+        a:link {
+            color: #ff7043; /* Light red-orange color for unvisited links */
+        }
+
+        a:visited {
+            color: #ffa726; /* Orange shade for visited links */
+        }
+
+        a:hover {
+            color: #26a69a; /* Teal color when hovering over links */
+        }
+
+        /* Clear floats after the columns */
+        .clearfix:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* Add your existing styles here... */
+
+    </style>
+</head>
+<body>
+    <div class="container clearfix">
+        <header>
+            <h1>Roast chicken</h1>
+            <img src="C:\Users\coden\Documents\csit 121\lab 3\images\roast chicken1.jpg" alt="Roast chicken" width="300" height="200">
+            <h2>Mario Batali recipe</h2>
+        </header>
+        <div class="left-column">
+            <p>This is the best roast chicken in the world because it reminds me of home</p>
+            <ul>
+                <li>Ingredients
+                    <ul>
+                        <li>3 1/2 lbs Chicken</li>
+                        <li>2 lbs small potatoes</li>
+                        <li>Juice from 2 lemons</li>
+                        <li>1 cup olive oil</li>
+                        <li>1 tbsp mustard</li>
+                        <li>Thyme</li>
+                        <li>Salt &amp; pepper</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="right-column">
+            <ul>
+                <li>"Rub" the chicken with the salt &amp; pepper, lemon, and mustard.</li>
+                <li>Place it in a deep pan with the potatoes, thyme, lemon juice, olive oil, salt &amp; pepper.</li>
+                <li>Cover the potatoes with water.</li>
+                <li>Bake in medium oven for ~1 1/2 hours.</li>
+            </ul>
+            <ol>
+                <li>Grab your utensils!</li>
+                <li>Grab your friends!</li>
+                <li>ENJOY!</li>
+            </ol>
+        </div>
+        <footer>
+            <p>This is my Favorite Recipe because it is simple to make and simply delicious to eat.</p>
+            <p>Sources:
+                <a href="https://www.recipe-free.com/recipes/roast-chicken-mario-batali-recipe/129299">Source for Recipe</a>,
+                <a href="https://www.allrecipes.com/">Free Recipes</a>
+            </p>
+        </footer>
+    </div>
+</body>
+</html>
